@@ -1,0 +1,51 @@
+{
+  "name": "tcgpricelookup/sdk",
+  "description": "PHP SDK for TCG Price Lookup — live trading card prices across Pokemon, MTG, Yu-Gi-Oh, Lorcana, One Piece, SWU, Flesh and Blood",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://tcgpricelookup.com/tcg-api",
+  "keywords": [
+    "tcg",
+    "trading-card-game",
+    "pokemon",
+    "mtg",
+    "yugioh",
+    "lorcana",
+    "one-piece-tcg",
+    "card-prices",
+    "tcgplayer",
+    "ebay"
+  ],
+  "authors": [
+    {
+      "name": "TCG Price Lookup",
+      "email": "support@tcgpricelookup.com",
+      "homepage": "https://tcgpricelookup.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TcgPriceLookup\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TcgPriceLookup\\Tests\\": "tests/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/TCG-Price-Lookup/tcglookup-php/issues",
+    "source": "https://github.com/TCG-Price-Lookup/tcglookup-php",
+    "docs": "https://tcgpricelookup.com/tcg-api"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
