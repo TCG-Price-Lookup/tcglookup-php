@@ -129,6 +129,7 @@ $client = new Client('tlk_live_...', [
 - [tcglookup-go](https://github.com/TCG-Price-Lookup/tcglookup-go) — Go
 - [tcglookup-rs](https://github.com/TCG-Price-Lookup/tcglookup-rs) — Rust
 - [tcglookup CLI](https://www.npmjs.com/package/tcglookup) — terminal client
+- [tcg-api-examples](https://github.com/TCG-Price-Lookup/tcg-api-examples) — runnable code samples in 8 languages
 
 The full developer ecosystem index lives at **[awesome-tcg](https://github.com/TCG-Price-Lookup/awesome-tcg)**.
 
